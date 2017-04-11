@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/office_2_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Classroom 2"
+        android:layout_below="@id/switch_power_1"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <Switch
+        android:text="Light 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/office_2_title"
+        android:id="@+id/switch_light_1_2" />
+
+    <Switch
+        android:text="Light 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch_light_1_2"
+        android:id="@+id/switch_light_2_2" />
+
+    <Switch
+        android:text="Fan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch_light_2_2"
+        android:id="@+id/switch_fan_2" />
+
+    <Switch
+        android:text="Computer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch_fan_2"
+        android:id="@+id/switch_computer_2" />
+
+    <Switch
+        android:text="Power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch_computer_2"
+        android:id="@+id/switch_power_2" />
+</RelativeLayout>
